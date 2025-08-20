@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Consola Retro GameStick – 50% OFF</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #000;
+      padding: 20px;
+      padding-top: 60px;
+      line-height: 1.55;
+    }
+
+    .top-timer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #f74911;
+      color: #fff;
+      text-align: center;
+      padding: 12px 20px;
+      font-weight: bold;
+      font-size: 1rem;
+      z-index: 9999;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin: 20px 0;
+    }
+
+    .product-image {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .product-image img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .pricing {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .old-price {
+      text-decoration: line-through;
+      color: #777;
+      font-size: 1.2rem;
+    }
+    .new-price {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #f74911;
+    }
+
+    ul {
+      max-width: 600px;
+      margin: 0 auto 1rem;
+      padding-left: 1.2rem;
+    }
+
+    .box {
+      background:#f7f7f7;
+      border:1px solid #e9e9e9;
+      border-radius:12px;
+      padding:14px 16px;
+      max-width:600px;
+      margin:0 auto 1rem;
+    }
+
+    .buy-button {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .cta-btn {
+      background: #075E54;
+      color: #fff;
+      padding: 18px 28px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      border-radius: 50px;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.2s, box-shadow 0.3s;
+      font-family: 'Montserrat', sans-serif;
+      animation: pulse 2s infinite;
+    }
+    .cta-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+    }
+    .whatsapp-icon {
+      width: 26px;
+      height: 26px;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(4,131,60,0.6); }
+      70% { transform: scale(1.05); box-shadow: 0 0 0 20px rgba(4,131,60,0); }
+      100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(4,131,60,0); }
+    }
+
+    .product-description {
+      text-align: center;
+      max-width: 600px;
+      margin: 20px auto;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra superior con oferta -->
+  <div class="top-timer">
+    🔥 ¡50% OFF solo por tiempo limitado! <span id="countdown">--:--:--</span>
+  </div>
+
+  <!-- Título -->
+  <h1>🎮 Consola Retro GameStick – Inalámbrica con 2 Joysticks</h1>
+
+  <!-- Imagen del producto -->
+  <div class="product-image">
+    <img src="consola.jpg" alt="Consola Retro GameStick con 2 joysticks" />
+  </div>
+
+  <!-- Precios -->
+  <div class="pricing">
+    <p class="old-price">Antes: $110.000</p>
+    <p class="new-price">Ahora: $55.000</p>
+  </div>
+
+  <!-- Beneficios -->
+  <ul>
+    <li>✅ Más de 10.000 juegos retro incluidos (listos para jugar).</li>
+    <li>✅ Conexión HDMI: enchufás directo al televisor y listo.</li>
+    <li>✅ 2 Joysticks inalámbricos 2.4G: jugá de a dos sin cables.</li>
+    <li>✅ Soporta juegos clásicos de Family, Sega, Nintendo, PlayStation 1, Arcade y más.</li>
+    <li>✅ Plug &amp; Play: sin instalaciones complicadas.</li>
+    <li>✅ Compatible con la mayoría de televisores, monitores y proyectores.</li>
+  </ul>
+
+  <!-- Incluye -->
+  <div class="box">
+    <strong>📦 Incluye:</strong>
+    <ul>
+      <li>• 1 Consola GameStick</li>
+      <li>• 2 Joysticks inalámbricos</li>
+      <li>• Receptor USB</li>
+      <li>• Cables de conexión y carga</li>
+    </ul>
+  </div>
+
+  <!-- Descripción -->
+  <p class="product-description">
+    👉 Ideal para chicos, nostálgicos y para compartir en familia o con amigos.<br/>
+    🔥 ¡Más diversión en menos espacio, con miles de juegos en tu mano!
+  </p>
+
+  <!-- Botón WhatsApp -->
+  <div class="buy-button">
+    <a
+      href="https://wa.me/5491126091758?text=Hola%20quiero%20la%20Consola%20Retro%20GameStick%20con%202%20joysticks%20inal%C3%A1mbricos%20a%20$55.000"
+      class="cta-btn"
+      target="_blank" rel="noopener"
+    >
+      <span>COMPRAR POR WHATSAPP</span>
+      <img src="whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+    </a>
+  </div>
+
+  <!-- Script cuenta regresiva -->
+  <script>
+    const countdownTarget = new Date().getTime() + 12 * 60 * 60 * 1000;
+    setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countdownTarget - now;
+      const h = Math.max(0, Math.floor((distance % (1000*60*60*24)) / (1000*60*60)));
+      const m = Math.max(0, Math.floor((distance % (1000*60*60)) / (1000*60)));
+      const s = Math.max(0, Math.floor((distance % (1000*60)) / 1000));
+      document.getElementById("countdown").textContent =
+        `${String(h).padStart(2,"0")}:${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
+    }, 1000);
+  </script>
+
+</body>
+</html>
